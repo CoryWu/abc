@@ -53,7 +53,7 @@ else
 endif
 
 ARCHFLAGS := $(ARCHFLAGS)
-
+#Test git
 OPTFLAGS  ?= -g -O
 
 CFLAGS    += -Wall -Wno-unused-function -Wno-write-strings -Wno-sign-compare $(ARCHFLAGS)
